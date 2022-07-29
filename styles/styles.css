@@ -80,7 +80,12 @@ header .barraNav ul li a {
   font-weight: 500;
   color: #f0d9ff;
 }
-
+.options {
+  font-size: 20px;
+}
+.container-fluid {
+  font-size: 25px;
+}
 /**estilos del main*/
 main {
   background-color: #ac7d88;
@@ -119,10 +124,17 @@ main .parrafo {
   display: inline-block;
   vertical-align: middle;
 } */
+.carousel-inner img {
+  height: 395px;
+}
 
-.row p {
-  text-align: justify;
+/* .row p {
+  text-align: right;
   margin-top: 70px;
+} */
+
+.container {
+  text-align: center;
 }
 
 /*Estilos de Footer*/
@@ -138,6 +150,7 @@ footer .icon {
 }
 
 .centrarMain {
+  min-height: calc(100vh - 309px);
   text-align: center;
   padding-bottom: 3rem;
 }
@@ -196,5 +209,12 @@ footer .icon {
 
   .welcome {
     grid-template-columns: 1fr;
+  }
+
+  .barraNavPrimera a {
+    display: block;
+  }
+  .redes {
+    display: block;
   }
 }
